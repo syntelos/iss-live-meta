@@ -45,11 +45,11 @@ public class schema
                 in.close();
                 /*
                  */
-                File outdir = new File("src/schema"), tgt;
-                if (outdir.exists() || outdir.mkdirs()){
+                File schema_dir = new File("src/schema"), tgt;
+                if (schema_dir.exists() || schema_dir.mkdirs()){
                     /*
                      */
-                    tgt = new File(outdir,"Schematic.java");
+                    tgt = new File(schema_dir,"Schematic.java");
                     System.out.printf("Writing %s%n",tgt.getName());
 
                     out = new PrintStream(new FileOutputStream(tgt));
@@ -93,7 +93,7 @@ public class schema
                     out.close();
                     /*
                      */
-                    tgt = new File(outdir,"Schema.java");
+                    tgt = new File(schema_dir,"Schema.java");
                     System.out.printf("Writing %s%n",tgt.getName());
 
                     out = new PrintStream(new FileOutputStream(tgt));
@@ -110,13 +110,21 @@ public class schema
                     for (int cc = 0; cc < count; cc++){
                         schema schematic = list.get(cc);
                         if (cc < term)
-                            out.printf("    %s(new %s()),%n",schematic.tmtc,schematic.name);
+                            out.printf("    %s(new schema.%s()),%n",schematic.name,schematic.name);
                         else
-                            out.printf("    %s(new %s());%n",schematic.tmtc,schematic.name);
+                            out.printf("    %s(new schema.%s());%n",schematic.name,schematic.name);
                     }
 
                     out.println();
                     out.println();
+                    out.println("    public final static Schematic For(String name){");
+                    out.println("        try {");
+                    out.println("            return valueOf(name).schematic;");
+                    out.println("        }");
+                    out.println("        catch (RuntimeException exc){");
+                    out.println("            return null;");
+                    out.println("        }");
+                    out.println("    }");
                     out.println("    public final Schematic schematic;");
                     out.println();
                     out.println("    private Schema(Schematic s){");
@@ -128,7 +136,7 @@ public class schema
                     /*
                      */
                     for (schema schematic: list){
-                        tgt = new File(outdir,schematic.name+".java");
+                        tgt = new File(schema_dir,schematic.name+".java");
                         System.out.printf("Writing %s%n",tgt.getName());
 
                         out = new PrintStream(new FileOutputStream(tgt));

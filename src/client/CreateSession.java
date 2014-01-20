@@ -20,6 +20,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
+/**
+ * Initialize the control + bind protocol.
+ */
 public class CreateSession
     extends Object
 {

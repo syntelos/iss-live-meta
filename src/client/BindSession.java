@@ -20,6 +20,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
+/**
+ * Read the data set defined by {@link ControlSession}.
+ */
 public class BindSession
     extends Object
 {
@@ -88,12 +91,14 @@ public class BindSession
         System.out.println();
 
         while (true){
-            int ch = in.read();
-            if (0 < ch){
-                System.out.write(ch);
+
+            Chunk chunk = new Chunk(in);
+
+            for (Chunk.Pair pair: chunk){
+
+                System.out.printf("%s=%s ",pair.schematic.tmtc,pair.value);
             }
-            else
-                break;
+            System.out.println();
         }
     }
 }

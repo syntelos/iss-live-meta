@@ -20,6 +20,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
+/**
+ * Pull the ADCO data set.
+ */
 public class ControlSession
     extends Object
 {
