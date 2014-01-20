@@ -5,7 +5,7 @@ public class NODE3000005
 {
 
     public NODE3000005(){
-        super("NODE3000005","N3_URN_TANK","NODE3000005","12","sprintf","%5.4f","Urine Tank Qty","Urine Tank Qty. Amount of urine available to be processed.");
+        super("NODE3000005","N3_URN_TANK","kg","12","sprintf","%5.4f","Urine Tank Qty","Urine Tank Qty. Amount of urine available to be processed.");
     }
 
 

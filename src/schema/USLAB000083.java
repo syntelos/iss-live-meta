@@ -5,7 +5,7 @@ public class USLAB000083
 {
 
     public USLAB000083(){
-        super("USLAB000083","DLCC","USLAB000083","12","sprintf","%5.4f","Data Load Command Counter - Count of data load commands received by the ISS Command and Control Computer","Data Load Command Counter - Count of data load commands received by the ISS Command and Control Computer");
+        super("USLAB000083","DLCC","quantity","12","sprintf","%5.4f","Data Load Command Counter - Count of data load commands received by the ISS Command and Control Computer","Data Load Command Counter - Count of data load commands received by the ISS Command and Control Computer");
     }
 
 

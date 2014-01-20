@@ -5,7 +5,7 @@ public class USLAB000054
 {
 
     public USLAB000054(){
-        super("USLAB000054","LAB_PPN2","USLAB000054","12","sprintf","%5.4f","Lab ppN2","Lab ppN2. Nitrogen level measured by Lab Sensors.");
+        super("USLAB000054","LAB_PPN2","torr","12","sprintf","%5.4f","Lab ppN2","Lab ppN2. Nitrogen level measured by Lab Sensors.");
     }
 
 

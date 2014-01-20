@@ -5,7 +5,7 @@ public class USLAB000013
 {
 
     public USLAB000013(){
-        super("USLAB000013","ATT_SRC","USLAB000013","64","enum","0=NONE|1=GPS1|2=GPS2|3=Russian|4=Ku_Band","US Attitude Source","US Attitude Source. The selected source of attitude updates to the GNC software. Options are GPS 1 or GPS 2 (redundant GPS receivers which calculate attitude using several antenna), Russian (attitude calculated on the Russian Segment), or Ku-Band (attitude calculated using the Ku-Band antenna information as it tracks TDRS communications satellites).");
+        super("USLAB000013","ATT_SRC","event","64","enum","0=NONE|1=GPS1|2=GPS2|3=Russian|4=Ku_Band","US Attitude Source","US Attitude Source. The selected source of attitude updates to the GNC software. Options are GPS 1 or GPS 2 (redundant GPS receivers which calculate attitude using several antenna), Russian (attitude calculated on the Russian Segment), or Ku-Band (attitude calculated using the Ku-Band antenna information as it tracks TDRS communications satellites).");
     }
 
 

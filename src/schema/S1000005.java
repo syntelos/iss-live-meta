@@ -5,7 +5,7 @@ public class S1000005
 {
 
     public S1000005(){
-        super("S1000005","RFG1_EL","S1000005","12","sprintf","%5.4f","S-Band Radio Frequency Group (RFG 1) Elevation Gimbal Position","S-Band Radio Frequency Group (RFG 1) Elevation Gimbal Position");
+        super("S1000005","RFG1_EL","degrees","12","sprintf","%5.4f","S-Band Radio Frequency Group (RFG 1) Elevation Gimbal Position","S-Band Radio Frequency Group (RFG 1) Elevation Gimbal Position");
     }
 
 

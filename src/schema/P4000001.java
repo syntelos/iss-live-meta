@@ -5,7 +5,7 @@ public class P4000001
 {
 
     public P4000001(){
-        super("P4000001","P4_PVCU_2A_V","P4000001","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 2A - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 2A - Drive Voltage");
+        super("P4000001","P4_PVCU_2A_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 2A - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 2A - Drive Voltage");
     }
 
 

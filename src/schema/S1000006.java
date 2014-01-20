@@ -5,7 +5,7 @@ public class S1000006
 {
 
     public S1000006(){
-        super("S1000006","STR_S_MDM","S1000006","64","enum","0=Off|1=On|3=Failed","Starboard Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status","Starboard Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status");
+        super("S1000006","STR_S_MDM","event","64","enum","0=Off|1=On|3=Failed","Starboard Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status","Starboard Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status");
     }
 
 

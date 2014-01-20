@@ -5,7 +5,7 @@ public class USLAB000061
 {
 
     public USLAB000061(){
-        super("USLAB000061","LAB_AC_TEMP","USLAB000061","12","sprintf","%5.4f","Air Cooling Fluid Temp (Lab)","Air Cooling Fluid Temp (Lab). Temperature of the water loop cooling the air in the Lab.");
+        super("USLAB000061","LAB_AC_TEMP","celcius","12","sprintf","%5.4f","Air Cooling Fluid Temp (Lab)","Air Cooling Fluid Temp (Lab). Temperature of the water loop cooling the air in the Lab.");
     }
 
 

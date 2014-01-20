@@ -5,7 +5,7 @@ public class NODE3000001
 {
 
     public NODE3000001(){
-        super("NODE3000001","N3_PPO2","NODE3000001","12","sprintf","%5.4f","Node 3 ppO2","Node 3 ppO2. Oxygen level measured by Node 3 Sensors");
+        super("NODE3000001","N3_PPO2","torr","12","sprintf","%5.4f","Node 3 ppO2","Node 3 ppO2. Oxygen level measured by Node 3 Sensors");
     }
 
 

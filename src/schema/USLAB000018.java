@@ -5,7 +5,7 @@ public class USLAB000018
 {
 
     public USLAB000018(){
-        super("USLAB000018","LVLH0","USLAB000018","12","sprintf","%5.4f","US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 0","US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 0");
+        super("USLAB000018","LVLH0","quaternion","12","sprintf","%5.4f","US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 0","US Current Local Vertical Local Horizontal (LVLH) Attitude Quaternion Component 0");
     }
 
 

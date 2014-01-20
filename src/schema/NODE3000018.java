@@ -5,7 +5,7 @@ public class NODE3000018
 {
 
     public NODE3000018(){
-        super("NODE3000018","N3_AC","NODE3000018","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Node 3 Air Conditioner State","Node 3 Air Conditioner State. Status of the Node 3 Air Conditioner/Fan.");
+        super("NODE3000018","N3_AC","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Node 3 Air Conditioner State","Node 3 Air Conditioner State. Status of the Node 3 Air Conditioner/Fan.");
     }
 
 

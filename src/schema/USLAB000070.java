@@ -5,7 +5,7 @@ public class USLAB000070
 {
 
     public USLAB000070(){
-        super("USLAB000070","ICZ_MDM2","USLAB000070","64","enum","0=Off|1=On|3=Failed","Internal Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status","Internal Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status");
+        super("USLAB000070","ICZ_MDM2","event","64","enum","0=Off|1=On|3=Failed","Internal Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status","Internal Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status");
     }
 
 

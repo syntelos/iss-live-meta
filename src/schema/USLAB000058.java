@@ -5,7 +5,7 @@ public class USLAB000058
 {
 
     public USLAB000058(){
-        super("USLAB000058","LAB_PRES","USLAB000058","12","sprintf","%5.4f","Cabin pressure","Cabin pressure. Pressure in the US Lab.");
+        super("USLAB000058","LAB_PRES","torr","12","sprintf","%5.4f","Cabin pressure","Cabin pressure. Pressure in the US Lab.");
     }
 
 

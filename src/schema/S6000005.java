@@ -5,7 +5,7 @@ public class S6000005
 {
 
     public S6000005(){
-        super("S6000005","S6_PVCU_1B_I","S6000005","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 1B - Drive Current","Photovolatic Control Unit (PVCU) - Solar Array - 1B - Drive Current");
+        super("S6000005","S6_PVCU_1B_I","amperes","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 1B - Drive Current","Photovolatic Control Unit (PVCU) - Solar Array - 1B - Drive Current");
     }
 
 

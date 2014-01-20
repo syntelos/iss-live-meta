@@ -5,7 +5,7 @@ public class P1000008
 {
 
     public P1000008(){
-        super("P1000008","STR_P_MDM","P1000008","64","enum","0=Off|1=On|3=Failed","Port Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status","Port Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status");
+        super("P1000008","STR_P_MDM","event","64","enum","0=Off|1=On|3=Failed","Port Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status","Port Thermal Radiator (STR) Multiplexer/Demultiplexer (MDM) on-off status");
     }
 
 

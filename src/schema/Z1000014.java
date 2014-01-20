@@ -5,7 +5,7 @@ public class Z1000014
 {
 
     public Z1000014(){
-        super("Z1000014","SGANT_EL","Z1000014","12","sprintf","%5.4f","Ku-Band SGANT Elevation Position","Ku-Band SGANT Elevation Position");
+        super("Z1000014","SGANT_EL","degrees","12","sprintf","%5.4f","Ku-Band SGANT Elevation Position","Ku-Band SGANT Elevation Position");
     }
 
 

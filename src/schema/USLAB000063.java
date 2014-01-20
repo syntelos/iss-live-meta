@@ -5,7 +5,7 @@ public class USLAB000063
 {
 
     public USLAB000063(){
-        super("USLAB000063","LAB_VAC_EX","USLAB000063","12","sprintf","%5.4f","Vacuum Exhaust System Valve Position","Vacuum Exhaust System Valve Position. Position of the Vacuum Exhaust System s overboard vent valve.");
+        super("USLAB000063","LAB_VAC_EX","position","12","sprintf","%5.4f","Vacuum Exhaust System Valve Position","Vacuum Exhaust System Valve Position. Position of the Vacuum Exhaust System s overboard vent valve.");
     }
 
 

@@ -5,7 +5,7 @@ public class AIRLOCK000057
 {
 
     public AIRLOCK000057(){
-        super("AIRLOCK000057","ARL_N2_PRES","AIRLOCK000057","12","sprintf","%5.4f","Airlock N2 Tank Pressure","Airlock N2 Tank Pressure. Pressure in the reserve nitrogen tanks.");
+        super("AIRLOCK000057","ARL_N2_PRES","torr","12","sprintf","%5.4f","Airlock N2 Tank Pressure","Airlock N2 Tank Pressure. Pressure in the reserve nitrogen tanks.");
     }
 
 

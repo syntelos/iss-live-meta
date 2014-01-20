@@ -5,7 +5,7 @@ public class USLAB000092
 {
 
     public USLAB000092(){
-        super("USLAB000092","ASSB","USLAB000092","12","sprintf","%5.4f","Active String of S-Band","Active String of S-Band");
+        super("USLAB000092","ASSB","GHz","12","sprintf","%5.4f","Active String of S-Band","Active String of S-Band");
     }
 
 

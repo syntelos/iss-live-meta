@@ -5,7 +5,7 @@ public class NODE3000004
 {
 
     public NODE3000004(){
-        super("NODE3000004","N3_URN_PROC","NODE3000004","64","enum","2=STOP|4=SHUTDOWN|8=MAINTENANCE|16=NORMAL|32=STANDBY|64=IDLE|128=SYSTEM INITIALIZED","Urine Processor State","Urine Processor State. Status of the Urine Processor.");
+        super("NODE3000004","N3_URN_PROC","event","64","enum","2=STOP|4=SHUTDOWN|8=MAINTENANCE|16=NORMAL|32=STANDBY|64=IDLE|128=SYSTEM INITIALIZED","Urine Processor State","Urine Processor State. Status of the Urine Processor.");
     }
 
 

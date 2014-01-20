@@ -5,7 +5,7 @@ public class USLAB000085
 {
 
     public USLAB000085(){
-        super("USLAB000085","CNC_DMD_T_F","USLAB000085","12","sprintf","%5.4f","ISS Command and Control Multiplexer/Demultiplexer Onboard Time (fine)","ISS Command and Control Multiplexer/Demultiplexer Onboard Time (fine)");
+        super("USLAB000085","CNC_DMD_T_F","seconds","12","sprintf","%5.4f","ISS Command and Control Multiplexer/Demultiplexer Onboard Time (fine)","ISS Command and Control Multiplexer/Demultiplexer Onboard Time (fine)");
     }
 
 

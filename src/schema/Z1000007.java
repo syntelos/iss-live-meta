@@ -5,7 +5,7 @@ public class Z1000007
 {
 
     public Z1000007(){
-        super("Z1000007","CMG3_SM_I","Z1000007","12","sprintf","%5.4f","Control Moment Gyroscope (CMG)-3 Spin Motor Current (amps)","Control Moment Gyroscope (CMG)-3 Spin Motor Current (amps). Commanded current of the CMG-3 Spin Motor, used to control the wheel speed.");
+        super("Z1000007","CMG3_SM_I","amperes","12","sprintf","%5.4f","Control Moment Gyroscope (CMG)-3 Spin Motor Current (amps)","Control Moment Gyroscope (CMG)-3 Spin Motor Current (amps). Commanded current of the CMG-3 Spin Motor, used to control the wheel speed.");
     }
 
 

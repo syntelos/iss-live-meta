@@ -5,7 +5,7 @@ public class USLAB000072
 {
 
     public USLAB000072(){
-        super("USLAB000072","PL_MDM2","USLAB000072","64","enum","0=Off|1=On|3=Failed","Payload (PL) Multiplexer/Demultiplexer (MDM) 2 on-off status","Payload (PL) Multiplexer/Demultiplexer (MDM) 2 on-off status");
+        super("USLAB000072","PL_MDM2","event","64","enum","0=Off|1=On|3=Failed","Payload (PL) Multiplexer/Demultiplexer (MDM) 2 on-off status","Payload (PL) Multiplexer/Demultiplexer (MDM) 2 on-off status");
     }
 
 

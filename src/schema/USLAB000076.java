@@ -5,7 +5,7 @@ public class USLAB000076
 {
 
     public USLAB000076(){
-        super("USLAB000076","PMCU_MDM2","USLAB000076","64","enum","0=Off|1=On|3=Failed","Power Mangement Controller Unit (PMCU) 2 Multiplexer/Demultiplexer 1 on-off status","Power Mangement Controller Unit (PMCU) 2 Multiplexer/Demultiplexer 1 on-off status");
+        super("USLAB000076","PMCU_MDM2","event","64","enum","0=Off|1=On|3=Failed","Power Mangement Controller Unit (PMCU) 2 Multiplexer/Demultiplexer 1 on-off status","Power Mangement Controller Unit (PMCU) 2 Multiplexer/Demultiplexer 1 on-off status");
     }
 
 

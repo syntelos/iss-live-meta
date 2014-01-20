@@ -5,7 +5,7 @@ public class S4000007
 {
 
     public S4000007(){
-        super("S4000007","S4_PVCU_1A_BGA","S4000007","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 1A - Beta Gimble Assembly (BGA) Position (degrees)","Photovolatic Control Unit (PVCU) - Solar Array - 1A - Beta Gimble Assembly (BGA) Position (degrees) 0 degrees points inboard");
+        super("S4000007","S4_PVCU_1A_BGA","degrees","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 1A - Beta Gimble Assembly (BGA) Position (degrees)","Photovolatic Control Unit (PVCU) - Solar Array - 1A - Beta Gimble Assembly (BGA) Position (degrees) 0 degrees points inboard");
     }
 
 

@@ -5,7 +5,7 @@ public class S0000009
 {
 
     public S0000009(){
-        super("S0000009","S0_SARJ_S_M","S0000009","64","enum","1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER","External Primary Solar Alpha Rotary Joint (SARJ) Starboard Mode","External Primary Solar Alpha Rotary Joint (SARJ) Starboard Mode");
+        super("S0000009","S0_SARJ_S_M","event","64","enum","1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER","External Primary Solar Alpha Rotary Joint (SARJ) Starboard Mode","External Primary Solar Alpha Rotary Joint (SARJ) Starboard Mode");
     }
 
 

@@ -5,7 +5,7 @@ public class USLAB000065
 {
 
     public USLAB000065(){
-        super("USLAB000065","LAB_AC_S","USLAB000065","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Lab Starboard Air Conditioner State","Lab Starboard Air Conditioner State. Status of the Lab s Starboard Air Coditioner/Fan.");
+        super("USLAB000065","LAB_AC_S","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Lab Starboard Air Conditioner State","Lab Starboard Air Conditioner State. Status of the Lab s Starboard Air Coditioner/Fan.");
     }
 
 

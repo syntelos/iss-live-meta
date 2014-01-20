@@ -5,7 +5,7 @@ public class S4000004
 {
 
     public S4000004(){
-        super("S4000004","S4_PVCU_3A_V","S4000004","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 3A - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 3A - Drive Voltage");
+        super("S4000004","S4_PVCU_3A_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 3A - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 3A - Drive Voltage");
     }
 
 

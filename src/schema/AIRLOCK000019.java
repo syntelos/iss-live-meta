@@ -5,7 +5,7 @@ public class AIRLOCK000019
 {
 
     public AIRLOCK000019(){
-        super("AIRLOCK000019","ARL_BCA1","AIRLOCK000019","64","enum","0=Normal|1=No Data|2=Missing  Data|3=Extra Data","Battery Charger Assembly (BCA) 1 Status","Battery Charger Assembly (BCA) 1 Status");
+        super("AIRLOCK000019","ARL_BCA1","event","64","enum","0=Normal|1=No Data|2=Missing  Data|3=Extra Data","Battery Charger Assembly (BCA) 1 Status","Battery Charger Assembly (BCA) 1 Status");
     }
 
 

@@ -5,7 +5,7 @@ public class S0000001
 {
 
     public S0000001(){
-        super("S0000001","S0_TRRJ_S","S0000001","12","sprintf","%5.4f","Starboard Thermal Radiator Rotating Joint (TRRJ) Position (degrees)","Starboard Thermal Radiator Rotating Joint (TRRJ) Position (degrees)");
+        super("S0000001","S0_TRRJ_S","degrees","12","sprintf","%5.4f","Starboard Thermal Radiator Rotating Joint (TRRJ) Position (degrees)","Starboard Thermal Radiator Rotating Joint (TRRJ) Position (degrees)");
     }
 
 

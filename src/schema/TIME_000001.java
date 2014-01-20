@@ -5,7 +5,7 @@ public class TIME_000001
 {
 
     public TIME_000001(){
-        super("TIME_000001","GMT","TIME_000001","12","sprintf","%mT","Greenwich Mean Time (GMT)","Greenwich Mean Time (GMT)");
+        super("TIME_000001","GMT","minutes","12","sprintf","%mT","Greenwich Mean Time (GMT)","Greenwich Mean Time (GMT)");
     }
 
 

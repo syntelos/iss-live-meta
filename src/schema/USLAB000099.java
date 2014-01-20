@@ -5,7 +5,7 @@ public class USLAB000099
 {
 
     public USLAB000099(){
-        super("USLAB000099","STSR1_PWR","USLAB000099","64","enum","0=Off|1=On|3=Failed","Space-To-Space Radio (UHF) 1 Power","Space-To-Space Radio (UHF) 1 Power");
+        super("USLAB000099","STSR1_PWR","event","64","enum","0=Off|1=On|3=Failed","Space-To-Space Radio (UHF) 1 Power","Space-To-Space Radio (UHF) 1 Power");
     }
 
 

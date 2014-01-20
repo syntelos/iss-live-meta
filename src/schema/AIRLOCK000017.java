@@ -5,7 +5,7 @@ public class AIRLOCK000017
 {
 
     public AIRLOCK000017(){
-        super("AIRLOCK000017","ARL_BCA4_V","AIRLOCK000017","12","sprintf","%5.4f","Battery Charger Assembly (BCA) 4 Voltage","Battery Charger Assembly (BCA) 4 Voltage");
+        super("AIRLOCK000017","ARL_BCA4_V","volts","12","sprintf","%5.4f","Battery Charger Assembly (BCA) 4 Voltage","Battery Charger Assembly (BCA) 4 Voltage");
     }
 
 

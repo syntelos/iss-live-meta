@@ -5,7 +5,7 @@ public class USLAB000028
 {
 
     public USLAB000028(){
-        super("USLAB000028","ATT_CMD_Q0","USLAB000028","12","sprintf","%5.4f","US Commanded Attitude Quaternion Component 0","US Commanded Attitude Quaternion Component 0");
+        super("USLAB000028","ATT_CMD_Q0","quaternion","12","sprintf","%5.4f","US Commanded Attitude Quaternion Component 0","US Commanded Attitude Quaternion Component 0");
     }
 
 

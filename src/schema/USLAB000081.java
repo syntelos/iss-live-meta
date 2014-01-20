@@ -5,7 +5,7 @@ public class USLAB000081
 {
 
     public USLAB000081(){
-        super("USLAB000081","AMIP","USLAB000081","64","enum","0=FALSE|1=TRUE","Attitude Maneuver In Progress status","Attitude Maneuver In Progress status");
+        super("USLAB000081","AMIP","event","64","enum","0=FALSE|1=TRUE","Attitude Maneuver In Progress status","Attitude Maneuver In Progress status");
     }
 
 

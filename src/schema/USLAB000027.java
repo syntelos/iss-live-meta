@@ -5,7 +5,7 @@ public class USLAB000027
 {
 
     public USLAB000027(){
-        super("USLAB000027","ATT_RATE_Z","USLAB000027","12","sprintf","%5.4f","US Inertial Attitude Rate Z (deg/s)","US Inertial Attitude Rate Z (deg/s). The angular rate of the ISS about the yaw axis with respect to inertial space.");
+        super("USLAB000027","ATT_RATE_Z","deg/s","12","sprintf","%5.4f","US Inertial Attitude Rate Z (deg/s)","US Inertial Attitude Rate Z (deg/s). The angular rate of the ISS about the yaw axis with respect to inertial space.");
     }
 
 

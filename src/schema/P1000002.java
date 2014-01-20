@@ -5,7 +5,7 @@ public class P1000002
 {
 
     public P1000002(){
-        super("P1000002","P1_B_PRES","P1000002","12","sprintf","%5.4f","Loop B PM Out Press (kPa)","Loop B PM Out Press (kPa) Pressure of Ammonia coming out of the pump.");
+        super("P1000002","P1_B_PRES","kPa","12","sprintf","%5.4f","Loop B PM Out Press (kPa)","Loop B PM Out Press (kPa) Pressure of Ammonia coming out of the pump.");
     }
 
 

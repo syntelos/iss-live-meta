@@ -5,7 +5,7 @@ public class AIRLOCK000050
 {
 
     public AIRLOCK000050(){
-        super("AIRLOCK000050","ARL_HIPO2","AIRLOCK000050","64","enum","0=CLOSED|1=OPEN|2=IN-TRANSIT|3=FAILED","Hi P O2 Supply valve position","Hi P O2 Supply valve position. Position of the valve controlling the ISS oxygen supply for EVA.");
+        super("AIRLOCK000050","ARL_HIPO2","event","64","enum","0=CLOSED|1=OPEN|2=IN-TRANSIT|3=FAILED","Hi P O2 Supply valve position","Hi P O2 Supply valve position. Position of the valve controlling the ISS oxygen supply for EVA.");
     }
 
 

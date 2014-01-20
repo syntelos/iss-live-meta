@@ -5,7 +5,7 @@ public class USLAB000102
 {
 
     public USLAB000102(){
-        super("USLAB000102","SV_DT","USLAB000102","12","sprintf","%sgT","State vector time tag","State vector time tag. Time used to define the ISS state vector.");
+        super("USLAB000102","SV_DT","seconds","12","sprintf","%sgT","State vector time tag","State vector time tag. Time used to define the ISS state vector.");
     }
 
 

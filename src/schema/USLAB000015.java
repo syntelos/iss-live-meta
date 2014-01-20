@@ -5,7 +5,7 @@ public class USLAB000015
 {
 
     public USLAB000015(){
-        super("USLAB000015","SV_SRC","USLAB000015","64","enum","0=NO_SOURCE|1=GPS1_FILTER|2=GPS2_FILTER|3=RUSSIAN|4=GPS1_DETERMINISTIC|5=GPS2_DETERMINISTIC|6=GROUND","US State Vector Source","US State Vector Source. The selected source of state vector updates to the GNC software. Options are GPS 1 or GPS 2 (redundant GPS receivers), Russian (the state vector calculated on the Russian Segment), or Ground (a state vector calculated based on ground tracking information and uplinked).");
+        super("USLAB000015","SV_SRC","event","64","enum","0=NO_SOURCE|1=GPS1_FILTER|2=GPS2_FILTER|3=RUSSIAN|4=GPS1_DETERMINISTIC|5=GPS2_DETERMINISTIC|6=GROUND","US State Vector Source","US State Vector Source. The selected source of state vector updates to the GNC software. Options are GPS 1 or GPS 2 (redundant GPS receivers), Russian (the state vector calculated on the Russian Segment), or Ground (a state vector calculated based on ground tracking information and uplinked).");
     }
 
 

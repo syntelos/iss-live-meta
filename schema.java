@@ -9,13 +9,13 @@ import java.util.StringTokenizer;
 
 public class schema
 {
-    public final String name, tmtc, id, columns, formattype, format, desc_short, desc_long;
+    public final String name, tmtc, units, columns, formattype, format, desc_short, desc_long;
 
-    public schema(String name, String tmtc, String id, String columns, String formattype, String format, String desc_short, String desc_long){
+    public schema(String name, String tmtc, String units, String columns, String formattype, String format, String desc_short, String desc_long){
 
         this.name = name;
         this.tmtc = tmtc;
-        this.id = id;
+        this.units = units;
         this.columns = columns;
         this.formattype = formattype;
         this.format = format;
@@ -59,13 +59,13 @@ public class schema
                     out.println("public abstract class Schematic");
                     out.println("    extends Object");
                     out.println("{");
-                    out.println("    public final String name, tmtc, id, columns, formattype, format, desc_short, desc_long;");
+                    out.println("    public final String name, tmtc, units, columns, formattype, format, desc_short, desc_long;");
                     out.println();
-                    out.println("    protected Schematic(String name, String tmtc, String id, String columns, String formattype, String format, String desc_short, String desc_long){");
+                    out.println("    protected Schematic(String name, String tmtc, String units, String columns, String formattype, String format, String desc_short, String desc_long){");
                     out.println("        super();");
                     out.println("        this.name = name;");
                     out.println("        this.tmtc = tmtc;");
-                    out.println("        this.id = id;");
+                    out.println("        this.units = units;");
                     out.println("        this.columns = columns;");
                     out.println("        this.formattype = formattype;");
                     out.println("        this.format = format;");
@@ -126,7 +126,7 @@ public class schema
                         out.println("{");
                         out.println();
                         out.printf( "    public %s(){%n",schematic.name);
-                        out.printf( "        super(\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\");%n", schematic.name, schematic.tmtc, schematic.id, schematic.columns, schematic.formattype, schematic.format, schematic.desc_short, schematic.desc_long);
+                        out.printf( "        super(\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\",\"%s\");%n", schematic.name, schematic.tmtc, schematic.units, schematic.columns, schematic.formattype, schematic.format, schematic.desc_short, schematic.desc_long);
                         out.println("    }");
                         out.println();
                         out.println();

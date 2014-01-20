@@ -5,7 +5,7 @@ public class S1000003
 {
 
     public S1000003(){
-        super("S1000003","S1_A_TEMP","S1000003","12","sprintf","%5.4f","Loop A PM Out Temp (deg C)","Loop A PM Out Temp (deg C) Temperature of the ammonia coming out of the pump, before it starts taking on the heat of ISS loads.");
+        super("S1000003","S1_A_TEMP","celcius","12","sprintf","%5.4f","Loop A PM Out Temp (deg C)","Loop A PM Out Temp (deg C) Temperature of the ammonia coming out of the pump, before it starts taking on the heat of ISS loads.");
     }
 
 

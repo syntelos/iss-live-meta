@@ -5,7 +5,7 @@ public class AIRLOCK000009
 {
 
     public AIRLOCK000009(){
-        super("AIRLOCK000009","ARL_EMU2_V","AIRLOCK000009","12","sprintf","%5.4f","Supplies power to the spacesuits (EVA Mobility Unit, EMU 2), Voltage","Supplies power to the spacesuits (EVA Mobility Unit = EMU s).");
+        super("AIRLOCK000009","ARL_EMU2_V","volts","12","sprintf","%5.4f","Supplies power to the spacesuits (EVA Mobility Unit, EMU 2), Voltage","Supplies power to the spacesuits (EVA Mobility Unit = EMU s).");
     }
 
 

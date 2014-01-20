@@ -5,7 +5,7 @@ public class USLAB000066
 {
 
     public USLAB000066(){
-        super("USLAB000066","CNC_MDM1","USLAB000066","64","enum","0=Off|1=On|3=Failed","Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 1 on-off status","Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 1 on-off status");
+        super("USLAB000066","CNC_MDM1","event","64","enum","0=Off|1=On|3=Failed","Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 1 on-off status","Command and Control (C&C) Multiplexer/Demultiplexer (MDM) 1 on-off status");
     }
 
 

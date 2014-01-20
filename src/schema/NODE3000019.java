@@ -5,7 +5,7 @@ public class NODE3000019
 {
 
     public NODE3000019(){
-        super("NODE3000019","N3_LTL","NODE3000019","12","sprintf","%5.4f","Coolant water quantity (Node 3)","Coolant water quantity (Node 3). N3 Low Temperature Loop (LTL) water level.");
+        super("NODE3000019","N3_LTL","kg","12","sprintf","%5.4f","Coolant water quantity (Node 3)","Coolant water quantity (Node 3). N3 Low Temperature Loop (LTL) water level.");
     }
 
 

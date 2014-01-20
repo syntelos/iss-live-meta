@@ -5,7 +5,7 @@ public class USLAB000039
 {
 
     public USLAB000039(){
-        super("USLAB000039","MASS","USLAB000039","12","sprintf","%5.4f","ISS Total Mass (kg)","ISS Total Mass (kg). Total mass of the ISS.");
+        super("USLAB000039","MASS","kg","12","sprintf","%5.4f","ISS Total Mass (kg)","ISS Total Mass (kg). Total mass of the ISS.");
     }
 
 
