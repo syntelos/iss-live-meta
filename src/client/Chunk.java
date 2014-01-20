@@ -41,6 +41,9 @@ public class Chunk
         String linin = "";
         while (0 == linin.length()){
             linin = in.readLine();
+            if (null == linin){
+                throw new java.net.SocketTimeoutException("Server stream timeout");
+            }
         }
         int len = Integer.parseInt(linin,16);
         byte[] chunk = new byte[len];
