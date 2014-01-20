@@ -53,7 +53,21 @@ public class schema
                     System.out.printf("Writing %s%n",tgt.getName());
 
                     out = new PrintStream(new FileOutputStream(tgt));
-
+                    out.println("/*");
+                    out.println(" * Copyright 2014, John Pritchard, Syntelos");
+                    out.println(" *");
+                    out.println(" * Licensed under the Apache License, Version 2.0 (the \"License\");");
+                    out.println(" * you may not use this file except in compliance with the License.");
+                    out.println(" * You may obtain a copy of the License at");
+                    out.println(" *");
+                    out.println(" *     http://www.apache.org/licenses/LICENSE-2.0");
+                    out.println(" *");
+                    out.println(" * Unless required by applicable law or agreed to in writing, software");
+                    out.println(" * distributed under the License is distributed on an \"AS IS\" BASIS,");
+                    out.println(" * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.");
+                    out.println(" * See the License for the specific language governing permissions and");
+                    out.println(" * limitations under the License.");
+                    out.println(" */");
                     out.println("package schema;");
                     out.println();
                     out.println("public abstract class Schematic");
@@ -119,6 +133,21 @@ public class schema
 
                         out = new PrintStream(new FileOutputStream(tgt));
 
+                        out.println("/*");
+                        out.println(" * Copyright 2014, John Pritchard, Syntelos");
+                        out.println(" *");
+                        out.println(" * Licensed under the Apache License, Version 2.0 (the \"License\");");
+                        out.println(" * you may not use this file except in compliance with the License.");
+                        out.println(" * You may obtain a copy of the License at");
+                        out.println(" *");
+                        out.println(" *     http://www.apache.org/licenses/LICENSE-2.0");
+                        out.println(" *");
+                        out.println(" * Unless required by applicable law or agreed to in writing, software");
+                        out.println(" * distributed under the License is distributed on an \"AS IS\" BASIS,");
+                        out.println(" * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.");
+                        out.println(" * See the License for the specific language governing permissions and");
+                        out.println(" * limitations under the License.");
+                        out.println(" */");
                         out.println("package schema;");
                         out.println();
                         out.printf( "public class %s%n",schematic.name);
