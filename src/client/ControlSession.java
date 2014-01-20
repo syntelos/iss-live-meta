@@ -54,12 +54,13 @@ public class ControlSession
     {
         for (String q : this.request){
             ot.writeBytes(q);
-            System.out.println(q);
+            System.out.print(q);
         }
     }
     void p(DataInputStream in)
         throws IOException
     {
+        System.out.println();
         HashMap<String,Object> headers = new HashMap();
         /*
          * Headers
