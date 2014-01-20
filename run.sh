@@ -1,3 +1,6 @@
 #!/bin/bash
 
-java -classpath bin client.main
+if ./compile.sh
+then
+    java -classpath bin client.main
+fi

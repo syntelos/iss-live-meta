@@ -1,4 +1,7 @@
 #!/bin/bash
 
-mkdir bin
+if [ ! -d bin ]
+then
+    mkdir bin
+fi
 javac -d bin $(find src -type f -name '*.java')
