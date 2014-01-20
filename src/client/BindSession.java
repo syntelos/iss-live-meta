@@ -91,15 +91,29 @@ public class BindSession
         }
         System.out.println();
 
+        int startup = 0;
+
         while (true){
 
-            Chunk chunk = new Chunk(in);
+            Chunk data = new Chunk(in);
 
-            for (Chunk.Pair pair: chunk){
+            if (0 < data.size()){
+                startup = 0;
 
-                System.out.printf("%s=%s ",pair.schematic.tmtc,pair.value);
+                for (Chunk.Pair pair: data){
+
+                    System.out.printf("%s=%s ",pair.schematic.tmtc,pair.value);
+                }
+                System.out.println();
             }
-            System.out.println();
+            else if (20 < startup){
+
+                throw new java.net.SocketTimeoutException("Server stream timeout");
+            }
+            else {
+                System.out.print(data.input);
+                startup++;
+            }
         }
     }
 }
