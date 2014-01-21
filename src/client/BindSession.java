@@ -139,9 +139,9 @@ public class BindSession
                 }
             }
             else {
-                System.out.print(">X> "+data.input);
+                System.out.print(">?> "+data.input);
 
-                throw new ControlTimeoutException();
+                throw new ControlTimeoutException("Not reached");
             }
         }
     }

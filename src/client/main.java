@@ -75,21 +75,11 @@ public class main {
         /*
          * The following is only concerned with continuous data
          * download, not interaction.  It shows that this limited
-         * usage permits one stream for control and binding, and
-         * generally this package is looking at the recycling
-         * protocol.
+         * usage permits one (socket) stream for control and binding.
          * 
          * The Lightstreamer documentation (Text Mode Protocol)
-         * describes two (HTTP Keep-Alive [TCP]) streams: one for
-         * control and the other for data for the general case with
-         * interactive data selection (ControlSession).
-         * 
-         * One interesting way to watch the protocol in action is
-         * using the Chromium browser's Network (debug tool) display.
-         * Snooping the "ether" is overkill once the HTTP elements are
-         * comprehended, which are all very standard and (I think they
-         * are) well described by the code in this package (e.g. Chunk
-         * operation from BindSession).
+         * describes two streams: one for control and the other for
+         * data.
          */
         try {
             while (true){
@@ -121,23 +111,11 @@ public class main {
                                  * Read data
                                  */
                                 BindSession bind = new BindSession(create);
-
-                                while (true){
-                                    try {
-                                        /*
-                                         * Re/bind
-                                         */
-                                        bind.q(out);
-                                        /*
-                                         * Never returns, throws session or control timeout
-                                         */
-                                        bind.p(in);
-                                    }
-                                    catch (BindTimeoutException poll){
-
-                                        System.err.println("\nclient.main: recycle bind");
-                                    }
-                                }
+                                bind.q(out);
+                                /*
+                                 * Never returns, throws session or control timeout
+                                 */
+                                bind.p(in);
                             }
                             else {
                                 System.err.println("client.main: error, session control: "+ctrl.response);
@@ -151,7 +129,11 @@ public class main {
                         socket.close();
                     }
                 }
-                catch (ControlTimeoutException experimental){
+                catch (BindTimeoutException x){
+
+                    System.err.println("\nclient.main: discard binding, reconnect");
+                }
+                catch (ControlTimeoutException x){
 
                     System.err.println("\nclient.main: discard control, reconnect");
                 }
