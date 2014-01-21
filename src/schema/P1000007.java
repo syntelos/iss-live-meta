@@ -20,7 +20,7 @@ public class P1000007
 {
 
     public P1000007(){
-        super("P1000007","RFG2_STAT","event","64","enum","0=Off|1=On|3=Failed","S-Band Radio Frequency Group (RFG 2), on-off status","S-Band Radio Frequency Group (RFG 2), on-off status");
+        super("P1000007","CRONUS","RFG2_STAT","event","64","enum","0=Off|1=On|3=Failed","S-Band Radio Frequency Group (RFG 2), on-off status","S-Band Radio Frequency Group (RFG 2), on-off status");
     }
 
 

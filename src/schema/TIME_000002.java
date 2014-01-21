@@ -20,7 +20,7 @@ public class TIME_000002
 {
 
     public TIME_000002(){
-        super("TIME_000002","YEAR","years","12","sprintf","%4.0f","Year","Year");
+        super("TIME_000002","NA","YEAR","years","12","sprintf","%4.0f","Year","Year");
     }
 
 

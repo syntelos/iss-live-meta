@@ -20,7 +20,7 @@ public class P6000008
 {
 
     public P6000008(){
-        super("P6000008","P6_PVCU_2B_BGA","degrees","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Beta Gimble Assembly (BGA) Position (degrees)","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Beta Gimble Assembly (BGA) Position (degrees) 0 degrees points inboard");
+        super("P6000008","SPARTAN","P6_PVCU_2B_BGA","degrees","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Beta Gimble Assembly (BGA) Position (degrees)","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Beta Gimble Assembly (BGA) Position (degrees) 0 degrees points inboard");
     }
 
 

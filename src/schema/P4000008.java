@@ -20,7 +20,7 @@ public class P4000008
 {
 
     public P4000008(){
-        super("P4000008","P4_PVCU_4A_BGA","degrees","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Beta Gimble Assembly (BGA) Position (degrees)","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Beta Gimble Assembly (BGA) Position (degrees) 0 degrees points inboard");
+        super("P4000008","SPARTAN","P4_PVCU_4A_BGA","degrees","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Beta Gimble Assembly (BGA) Position (degrees)","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Beta Gimble Assembly (BGA) Position (degrees) 0 degrees points inboard");
     }
 
 

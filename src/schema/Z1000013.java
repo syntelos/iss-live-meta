@@ -20,7 +20,7 @@ public class Z1000013
 {
 
     public Z1000013(){
-        super("Z1000013","KU_TRANS","event","64","enum","0=RESET|1=NORMAL","Ku-Band Transmit","Ku-Band Transmit");
+        super("Z1000013","CRONUS","KU_TRANS","event","64","enum","0=RESET|1=NORMAL","Ku-Band Transmit","Ku-Band Transmit");
     }
 
 

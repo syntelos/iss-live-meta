@@ -20,7 +20,7 @@ public class NODE1000002
 {
 
     public NODE1000002(){
-        super("NODE1000002","N1_MDM2","event","64","enum","0=Off|1=On|3=Failed","Node 1 Multiplexer/Demultiplexer (MDM) 2 on-off status","Node 1 Multiplexer/Demultiplexer (MDM) 2 on-off status");
+        super("NODE1000002","CRONUS","N1_MDM2","event","64","enum","0=Off|1=On|3=Failed","Node 1 Multiplexer/Demultiplexer (MDM) 2 on-off status","Node 1 Multiplexer/Demultiplexer (MDM) 2 on-off status");
     }
 
 

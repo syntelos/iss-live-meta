@@ -20,7 +20,7 @@ public class USLAB000056
 {
 
     public USLAB000056(){
-        super("USLAB000056","LAB_LTL","kg","12","sprintf","%5.4f","Coolant water quantity, LT (Lab)","Coolant water quantity, LT (Lab). Lab Low Temperature Loop (LTL) water level");
+        super("USLAB000056","ETHOS","LAB_LTL","kg","12","sprintf","%5.4f","Coolant water quantity, LT (Lab)","Coolant water quantity, LT (Lab). Lab Low Temperature Loop (LTL) water level");
     }
 
 

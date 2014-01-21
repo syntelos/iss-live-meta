@@ -20,7 +20,7 @@ public class S1000001
 {
 
     public S1000001(){
-        super("S1000001","S1_A_FLOW","kg/hour","12","sprintf","%5.4f","Loop A Pump Flowrate (kg/hr)","Loop A Pump Flowrate (kg/hr) Flow rate of Ammonia being moved by ETCS Pump");
+        super("S1000001","SPARTAN","S1_A_FLOW","kg/hour","12","sprintf","%5.4f","Loop A Pump Flowrate (kg/hr)","Loop A Pump Flowrate (kg/hr) Flow rate of Ammonia being moved by ETCS Pump");
     }
 
 

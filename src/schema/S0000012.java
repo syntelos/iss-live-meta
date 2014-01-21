@@ -20,7 +20,7 @@ public class S0000012
 {
 
     public S0000012(){
-        super("S0000012","S0_ECZ_MDM2","event","64","enum","0=Off|1=On|3=Failed","External Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status","External Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status");
+        super("S0000012","CRONUS","S0_ECZ_MDM2","event","64","enum","0=Off|1=On|3=Failed","External Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status","External Control Zone Multiplexer/Demultiplexer (MDM) 2 on-off status");
     }
 
 

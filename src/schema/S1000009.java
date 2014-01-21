@@ -20,7 +20,7 @@ public class S1000009
 {
 
     public S1000009(){
-        super("S1000009","RFG1","event","64","enum","0=Off|1=On|3=Failed","S-Band Radio Frequency Group (RFG 1), on-off status","S-Band Radio Frequency Group (RFG 1), on-off status");
+        super("S1000009","CRONUS","RFG1","event","64","enum","0=Off|1=On|3=Failed","S-Band Radio Frequency Group (RFG 1), on-off status","S-Band Radio Frequency Group (RFG 1), on-off status");
     }
 
 

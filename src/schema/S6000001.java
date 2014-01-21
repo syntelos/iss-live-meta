@@ -20,7 +20,7 @@ public class S6000001
 {
 
     public S6000001(){
-        super("S6000001","S6_PVCU_3B_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Voltage");
+        super("S6000001","SPARTAN","S6_PVCU_3B_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 3B - Drive Voltage");
     }
 
 

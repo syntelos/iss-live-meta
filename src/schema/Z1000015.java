@@ -20,7 +20,7 @@ public class Z1000015
 {
 
     public Z1000015(){
-        super("Z1000015","SGANT_CEL","degrees","12","sprintf","%5.4f","Ku-Band SGANT Cross-Elevation Position","Ku-Band SGANT Cross-Elevation Position");
+        super("Z1000015","CRONUS","SGANT_CEL","degrees","12","sprintf","%5.4f","Ku-Band SGANT Cross-Elevation Position","Ku-Band SGANT Cross-Elevation Position");
     }
 
 

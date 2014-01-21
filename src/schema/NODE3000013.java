@@ -20,7 +20,7 @@ public class NODE3000013
 {
 
     public NODE3000013(){
-        super("NODE3000013","N3_AC_TEMP","celcius","12","sprintf","%5.4f","Air Cooling Fluid Temp (Node 3)","Air Cooling Fluid Temp (Node 3). Temperature of the water loop cooling the air in Node 3.");
+        super("NODE3000013","ETHOS","N3_AC_TEMP","celcius","12","sprintf","%5.4f","Air Cooling Fluid Temp (Node 3)","Air Cooling Fluid Temp (Node 3). Temperature of the water loop cooling the air in Node 3.");
     }
 
 

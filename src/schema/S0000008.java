@@ -20,7 +20,7 @@ public class S0000008
 {
 
     public S0000008(){
-        super("S0000008","S0_SARJ_P_M","event","64","enum","1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER","External Primary Solar Alpha Rotary Joint (SARJ) Port Mode","External Primary Solar Alpha Rotary Joint (SARJ) Port Mode");
+        super("S0000008","VVO","S0_SARJ_P_M","event","64","enum","1=STANDBY|2=RESTART|3=CHECKOUT|4=DIRECTED_POSITION|5=AUTOTRACK|6=BLIND|7=SHUTDOWN|8=SWITCHOVER","External Primary Solar Alpha Rotary Joint (SARJ) Port Mode","External Primary Solar Alpha Rotary Joint (SARJ) Port Mode");
     }
 
 

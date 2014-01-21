@@ -20,7 +20,7 @@ public class USLAB000091
 {
 
     public USLAB000091(){
-        super("USLAB000091","KUV_DL4","event","64","enum","0=INACTIVE|1=ACTIVE","Ku-Band Video Downlink Channel 4 Activity","Ku-Band Video Downlink Channel 4 Activity");
+        super("USLAB000091","CRONUS","KUV_DL4","event","64","enum","0=INACTIVE|1=ACTIVE","Ku-Band Video Downlink Channel 4 Activity","Ku-Band Video Downlink Channel 4 Activity");
     }
 
 

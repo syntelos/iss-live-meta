@@ -20,7 +20,7 @@ public class P4000004
 {
 
     public P4000004(){
-        super("P4000004","P4_PVCU_4A_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Drive Voltage");
+        super("P4000004","SPARTAN","P4_PVCU_4A_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 4A - Drive Voltage");
     }
 
 

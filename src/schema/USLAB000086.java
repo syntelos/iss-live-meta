@@ -20,7 +20,7 @@ public class USLAB000086
 {
 
     public USLAB000086(){
-        super("USLAB000086","ISS_M","event","64","enum","1=Standard|2=Microgravity|4=Reboost|8=Proximity_Ops|16=External_Ops|32=Survival|64=ASCR|127=all_modes","ISS Station Mode","ISS Station Mode");
+        super("USLAB000086","VVO","ISS_M","event","64","enum","1=Standard|2=Microgravity|4=Reboost|8=Proximity_Ops|16=External_Ops|32=Survival|64=ASCR|127=all_modes","ISS Station Mode","ISS Station Mode");
     }
 
 

@@ -20,7 +20,7 @@ public class Z1000003
 {
 
     public Z1000003(){
-        super("Z1000003","CMG3_VIBR","g","12","sprintf","%5.4f","Control Moment Gyroscope (CMG)-3 Vibration (g)","Control Moment Gyroscope (CMG)-3 Vibration (g). CMG-3 vibration sensor output. Measures vibration of the Inner Gimbal (IG). Used as an indicator of a possible spin bearing failure.");
+        super("Z1000003","ADCO","CMG3_VIBR","g","12","sprintf","%5.4f","Control Moment Gyroscope (CMG)-3 Vibration (g)","Control Moment Gyroscope (CMG)-3 Vibration (g). CMG-3 vibration sensor output. Measures vibration of the Inner Gimbal (IG). Used as an indicator of a possible spin bearing failure.");
     }
 
 

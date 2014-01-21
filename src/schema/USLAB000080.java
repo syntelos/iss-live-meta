@@ -20,7 +20,7 @@ public class USLAB000080
 {
 
     public USLAB000080(){
-        super("USLAB000080","PMM_PWR","event","64","enum","0=Off|1=On|3=Failed","Permanent Multipurpose Module - System Power voltage status","Permanent Multipurpose Module - System Power voltage status");
+        super("USLAB000080","CRONUS","PMM_PWR","event","64","enum","0=Off|1=On|3=Failed","Permanent Multipurpose Module - System Power voltage status","Permanent Multipurpose Module - System Power voltage status");
     }
 
 

@@ -20,7 +20,7 @@ public class AIRLOCK000053
 {
 
     public AIRLOCK000053(){
-        super("AIRLOCK000053","ARL_AC","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Airlock Air Conditioner State","Airlock Air Conditioner State. Status of the Airlock Air Conditioner/Fan.");
+        super("AIRLOCK000053","ETHOS","ARL_AC","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Airlock Air Conditioner State","Airlock Air Conditioner State. Status of the Airlock Air Conditioner/Fan.");
     }
 
 

@@ -20,7 +20,7 @@ public class NODE2000007
 {
 
     public NODE2000007(){
-        super("NODE2000007","N2_AV_TEMP","celcius","12","sprintf","%5.4f","Avionics Cooling Fluid Temp (Node 2)","Avionics Cooling Fluid Temp (Node 2). Temperature of fluid cooling avionics in Node 2.");
+        super("NODE2000007","ETHOS","N2_AV_TEMP","celcius","12","sprintf","%5.4f","Avionics Cooling Fluid Temp (Node 2)","Avionics Cooling Fluid Temp (Node 2). Temperature of fluid cooling avionics in Node 2.");
     }
 
 

@@ -20,7 +20,7 @@ public class USLAB000007
 {
 
     public USLAB000007(){
-        super("USLAB000007","CMG_CT_P","N-m","12","sprintf","%5.4f","Control Moment Gyroscope (CMG) Control Torque - Pitch (N-m)","Control Moment Gyroscope (CMG) Control Torque - Pitch (N-m). The commanded control torque requested by GNC software in the pitch axis of the ISS.");
+        super("USLAB000007","ADCO","CMG_CT_P","N-m","12","sprintf","%5.4f","Control Moment Gyroscope (CMG) Control Torque - Pitch (N-m)","Control Moment Gyroscope (CMG) Control Torque - Pitch (N-m). The commanded control torque requested by GNC software in the pitch axis of the ISS.");
     }
 
 

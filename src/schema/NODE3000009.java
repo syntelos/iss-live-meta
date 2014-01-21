@@ -20,7 +20,7 @@ public class NODE3000009
 {
 
     public NODE3000009(){
-        super("NODE3000009","N3_CLEAN","kg","12","sprintf","%5.4f","Clean Water Tank Qty","Clean Water Tank Qty. Amount of potable water available.");
+        super("NODE3000009","ETHOS","N3_CLEAN","kg","12","sprintf","%5.4f","Clean Water Tank Qty","Clean Water Tank Qty. Amount of potable water available.");
     }
 
 

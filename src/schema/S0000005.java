@@ -20,7 +20,7 @@ public class S0000005
 {
 
     public S0000005(){
-        super("S0000005","S0_SARJ_P_C","degrees","12","sprintf","%5.4f","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Commanded Position (degrees)","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Commanded Position (degrees)");
+        super("S0000005","VVO","S0_SARJ_P_C","degrees","12","sprintf","%5.4f","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Commanded Position (degrees)","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Commanded Position (degrees)");
     }
 
 

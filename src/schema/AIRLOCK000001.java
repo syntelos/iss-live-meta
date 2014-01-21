@@ -20,7 +20,7 @@ public class AIRLOCK000001
 {
 
     public AIRLOCK000001(){
-        super("AIRLOCK000001","ARL_UIA1_V","volts","12","sprintf","%5.4f","Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU 1), Voltage","Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU s) and the In-flight Refill Unit (IRU).");
+        super("AIRLOCK000001","EVA","ARL_UIA1_V","volts","12","sprintf","%5.4f","Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU 1), Voltage","Supplies power through the Umbilical Interface Assembly (UIA) to the spacesuits (EMU s) and the In-flight Refill Unit (IRU).");
     }
 
 

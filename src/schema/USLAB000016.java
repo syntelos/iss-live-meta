@@ -20,7 +20,7 @@ public class USLAB000016
 {
 
     public USLAB000016(){
-        super("USLAB000016","ATT_CTL","event","64","enum","0=ATTITUDE HOLD|1=MOM MGMT","Attitude Controller Type","Attitude Controller Type. Indicates the type of attitude controller utilized by the US GNC. An Attitude Hold controller is used to minimize error in the attitude of the ISS, while sacrificing momentum margin. A Momentum Management controller is used to minimize the active CMG momentum, while sacrificing attitude error.");
+        super("USLAB000016","ADCO","ATT_CTL","event","64","enum","0=ATTITUDE HOLD|1=MOM MGMT","Attitude Controller Type","Attitude Controller Type. Indicates the type of attitude controller utilized by the US GNC. An Attitude Hold controller is used to minimize error in the attitude of the ISS, while sacrificing momentum margin. A Momentum Management controller is used to minimize the active CMG momentum, while sacrificing attitude error.");
     }
 
 

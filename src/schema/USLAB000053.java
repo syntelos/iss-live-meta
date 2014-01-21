@@ -20,7 +20,7 @@ public class USLAB000053
 {
 
     public USLAB000053(){
-        super("USLAB000053","LAB_PPO2","torr","12","sprintf","%5.4f","Lab ppO2","Lab ppO2. Oxygen level measured by Lab Sensors.");
+        super("USLAB000053","ETHOS","LAB_PPO2","torr","12","sprintf","%5.4f","Lab ppO2","Lab ppO2. Oxygen level measured by Lab Sensors.");
     }
 
 

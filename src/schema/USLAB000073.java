@@ -20,7 +20,7 @@ public class USLAB000073
 {
 
     public USLAB000073(){
-        super("USLAB000073","GNC_MDM1","event","64","enum","0=Off|1=On|3=Failed","Guidance, Navigation and Control (GNC) Multiplexer/Demultiplexer 1 on-off status","Guidance, Navigation and Control (GNC) Multiplexer/Demultiplexer 1 on-off status");
+        super("USLAB000073","CRONUS","GNC_MDM1","event","64","enum","0=Off|1=On|3=Failed","Guidance, Navigation and Control (GNC) Multiplexer/Demultiplexer 1 on-off status","Guidance, Navigation and Control (GNC) Multiplexer/Demultiplexer 1 on-off status");
     }
 
 

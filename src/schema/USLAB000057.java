@@ -20,7 +20,7 @@ public class USLAB000057
 {
 
     public USLAB000057(){
-        super("USLAB000057","LAB_MTL","kg","12","sprintf","%5.4f","Coolant water quantity, MT (Lab)","Coolant water quantity, MT (Lab). Lab Moderate Temperature Loop (MTL) water level.");
+        super("USLAB000057","ETHOS","LAB_MTL","kg","12","sprintf","%5.4f","Coolant water quantity, MT (Lab)","Coolant water quantity, MT (Lab). Lab Moderate Temperature Loop (MTL) water level.");
     }
 
 

@@ -20,7 +20,7 @@ public class Z1000011
 {
 
     public Z1000011(){
-        super("Z1000011","CMG3_SP","rpm","12","sprintf","%5.4f","Control Moment Gyroscope (CMG) 3 Wheel Speed (rpm)","Control Moment Gyroscope (CMG) 3 Wheel Speed (rpm). Rotational speed of the CMG-3 flywheel.");
+        super("Z1000011","ADCO","CMG3_SP","rpm","12","sprintf","%5.4f","Control Moment Gyroscope (CMG) 3 Wheel Speed (rpm)","Control Moment Gyroscope (CMG) 3 Wheel Speed (rpm). Rotational speed of the CMG-3 flywheel.");
     }
 
 

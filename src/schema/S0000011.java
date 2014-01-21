@@ -20,7 +20,7 @@ public class S0000011
 {
 
     public S0000011(){
-        super("S0000011","S0_MDM1","event","64","enum","0=Off|1=On|3=Failed","S0 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status","S0 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status");
+        super("S0000011","CRONUS","S0_MDM1","event","64","enum","0=Off|1=On|3=Failed","S0 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status","S0 Truss Multiplexer/Demultiplexer (MDM) 1 on-off status");
     }
 
 

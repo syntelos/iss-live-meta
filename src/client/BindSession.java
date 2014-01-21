@@ -102,7 +102,7 @@ public class BindSession
 
                 for (Chunk.Pair pair: data){
 
-                    System.out.printf("%s=%s ",pair.schematic.tmtc,pair.value);
+                    System.out.printf("%s(%s)=%s ",pair.name,pair.schematic.tmtc,pair.value);
                 }
                 System.out.println();
             }

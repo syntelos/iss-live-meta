@@ -20,7 +20,7 @@ public class USLAB000044
 {
 
     public USLAB000044(){
-        super("USLAB000044","GPS2","event","64","enum","0=DOING POSITION FIXES|1=SV TIMING|2=APPROXIMATE TIMING|3=GPS TIME|4=NEED INITIALIZATION|5=GDOP NEEDED|6=BAD TIMING|7=NO USABLE SAT|8=TRACK 1 SAT|9=TRACK 2 SAT|10=TRACK 3 SAT|11=BAD INTEGRITY|12=NO VEL AVAIL|13=UNUSABLE FIX","Global Positioning System (GPS-2) Ops Status","Global Positioning System (GPS-2) Ops Status. Operational status of the software processes occurring in GPS 2.");
+        super("USLAB000044","ADCO","GPS2","event","64","enum","0=DOING POSITION FIXES|1=SV TIMING|2=APPROXIMATE TIMING|3=GPS TIME|4=NEED INITIALIZATION|5=GDOP NEEDED|6=BAD TIMING|7=NO USABLE SAT|8=TRACK 1 SAT|9=TRACK 2 SAT|10=TRACK 3 SAT|11=BAD INTEGRITY|12=NO VEL AVAIL|13=UNUSABLE FIX","Global Positioning System (GPS-2) Ops Status","Global Positioning System (GPS-2) Ops Status. Operational status of the software processes occurring in GPS 2.");
     }
 
 

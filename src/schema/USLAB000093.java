@@ -20,7 +20,7 @@ public class USLAB000093
 {
 
     public USLAB000093(){
-        super("USLAB000093","IAC1","event","64","enum","0=Backup|1=Active","Internal Audio Controller (IAC) - IAC-1 Active/Backup Indication","Internal Audio Controller (IAC) - IAC-1 Active/Backup Indication");
+        super("USLAB000093","CRONUS","IAC1","event","64","enum","0=Backup|1=Active","Internal Audio Controller (IAC) - IAC-1 Active/Backup Indication","Internal Audio Controller (IAC) - IAC-1 Active/Backup Indication");
     }
 
 

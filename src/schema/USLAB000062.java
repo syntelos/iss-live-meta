@@ -20,7 +20,7 @@ public class USLAB000062
 {
 
     public USLAB000062(){
-        super("USLAB000062","LAB_VAC_RS","position","12","sprintf","%5.4f","Vacuum Resource System Valve Position","Vacuum Resource System Valve Position. Position of the Vacuum Resource System s overboard vent valve.");
+        super("USLAB000062","ETHOS","LAB_VAC_RS","position","12","sprintf","%5.4f","Vacuum Resource System Valve Position","Vacuum Resource System Valve Position. Position of the Vacuum Resource System s overboard vent valve.");
     }
 
 

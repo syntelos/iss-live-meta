@@ -20,7 +20,7 @@ public class USLAB000022
 {
 
     public USLAB000022(){
-        super("USLAB000022","ATT_R_E","degrees","12","sprintf","%5.4f","US Attitude Roll Error (deg)","US Attitude Roll Error (deg). The error between the current and commanded ISS orientation in the roll axis.");
+        super("USLAB000022","ADCO","ATT_R_E","degrees","12","sprintf","%5.4f","US Attitude Roll Error (deg)","US Attitude Roll Error (deg). The error between the current and commanded ISS orientation in the roll axis.");
     }
 
 

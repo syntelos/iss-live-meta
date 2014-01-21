@@ -20,7 +20,7 @@ public class AIRLOCK000056
 {
 
     public AIRLOCK000056(){
-        super("AIRLOCK000056","ARL_LOPO2_PRES","torr","12","sprintf","%5.4f","Airlock Lo P O2 Tank Pressure","Airlock Lo P O2 Tank Pressure. Pressure in the oxygen tanks.");
+        super("AIRLOCK000056","ETHOS","ARL_LOPO2_PRES","torr","12","sprintf","%5.4f","Airlock Lo P O2 Tank Pressure","Airlock Lo P O2 Tank Pressure. Pressure in the oxygen tanks.");
     }
 
 

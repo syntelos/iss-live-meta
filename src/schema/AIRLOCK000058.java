@@ -20,7 +20,7 @@ public class AIRLOCK000058
 {
 
     public AIRLOCK000058(){
-        super("AIRLOCK000058","ARL_MDM","event","64","enum","0=Off|1=On|3=Failed","Airlock Multiplexer/Demultiplexer (MDM) on-off status","Airlock Multiplexer/Demultiplexer (MDM) on-off status");
+        super("AIRLOCK000058","CRONUS","ARL_MDM","event","64","enum","0=Off|1=On|3=Failed","Airlock Multiplexer/Demultiplexer (MDM) on-off status","Airlock Multiplexer/Demultiplexer (MDM) on-off status");
     }
 
 

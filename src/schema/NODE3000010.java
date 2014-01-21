@@ -20,7 +20,7 @@ public class NODE3000010
 {
 
     public NODE3000010(){
-        super("NODE3000010","N3_O2_GEN","event","64","enum","1=PROCESS|2=STANDBY|3=SHUTDOWN|4=STOP|5=VENT_DOME|6=INERT_DOME|7=FAST_SHUTDOWN|8=N2_PURGE_SHUTDOWN","Oxygen Generator State","Oxygen Generator State. Status of the Oxygen Generator.");
+        super("NODE3000010","ETHOS","N3_O2_GEN","event","64","enum","1=PROCESS|2=STANDBY|3=SHUTDOWN|4=STOP|5=VENT_DOME|6=INERT_DOME|7=FAST_SHUTDOWN|8=N2_PURGE_SHUTDOWN","Oxygen Generator State","Oxygen Generator State. Status of the Oxygen Generator.");
     }
 
 

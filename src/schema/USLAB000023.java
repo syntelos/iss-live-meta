@@ -20,7 +20,7 @@ public class USLAB000023
 {
 
     public USLAB000023(){
-        super("USLAB000023","ATT_P_E","degrees","12","sprintf","%5.4f","US Attitude Pitch Error (deg)","US Attitude Pitch Error (deg). The error between the current and commanded ISS orientation in the pitch axis.");
+        super("USLAB000023","ADCO","ATT_P_E","degrees","12","sprintf","%5.4f","US Attitude Pitch Error (deg)","US Attitude Pitch Error (deg). The error between the current and commanded ISS orientation in the pitch axis.");
     }
 
 

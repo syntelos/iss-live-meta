@@ -20,7 +20,7 @@ public class S3000002
 {
 
     public S3000002(){
-        super("S3000002","S3_MDM2","event","64","enum","0=Off|1=On|3=Failed","S3 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status","S3 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status");
+        super("S3000002","CRONUS","S3_MDM2","event","64","enum","0=Off|1=On|3=Failed","S3 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status","S3 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status");
     }
 
 

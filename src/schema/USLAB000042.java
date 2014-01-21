@@ -20,7 +20,7 @@ public class USLAB000042
 {
 
     public USLAB000042(){
-        super("USLAB000042","LOAC_ISS","event","64","enum","0=FALSE|1=TRUE","Loss of ISS Attitude Control (LOAC) Caution Message In Alarm","Loss of ISS Attitude Control (LOAC) Caution Message In Alarm. Defines when the US Segment has declared a loss of ISS attitude control.");
+        super("USLAB000042","ADCO","LOAC_ISS","event","64","enum","0=FALSE|1=TRUE","Loss of ISS Attitude Control (LOAC) Caution Message In Alarm","Loss of ISS Attitude Control (LOAC) Caution Message In Alarm. Defines when the US Segment has declared a loss of ISS attitude control.");
     }
 
 

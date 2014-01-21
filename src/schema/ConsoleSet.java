@@ -15,22 +15,9 @@
  */
 package schema;
 
-public class S1000003
-    extends Schematic
-{
+public interface ConsoleSet {
 
-    public S1000003(){
-        super("S1000003","SPARTAN","S1_A_TEMP","celcius","12","sprintf","%5.4f","Loop A PM Out Temp (deg C)","Loop A PM Out Temp (deg C) Temperature of the ammonia coming out of the pump, before it starts taking on the heat of ISS loads.");
-    }
+    public Schematic[] schematic();
 
-
-    public Object parse(String string){
-        try {
-            return new Float(string);
-        }
-        catch (NumberFormatException exc){
-            return string;
-        }
-    }
-
+    public String join(String sep);
 }

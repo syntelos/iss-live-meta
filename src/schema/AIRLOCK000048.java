@@ -20,7 +20,7 @@ public class AIRLOCK000048
 {
 
     public AIRLOCK000048(){
-        super("AIRLOCK000048","ARL_PUMP_SW","event","64","enum","0=PUMP OFF CMD|1=PUMP ON CMD","Pumps atmosphere from Airlock into Node one during depress, switch status.","Pumps atmosphere from Airlock into Node one during depress, switch status.");
+        super("AIRLOCK000048","EVA","ARL_PUMP_SW","event","64","enum","0=PUMP OFF CMD|1=PUMP ON CMD","Pumps atmosphere from Airlock into Node one during depress, switch status.","Pumps atmosphere from Airlock into Node one during depress, switch status.");
     }
 
 

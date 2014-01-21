@@ -20,7 +20,7 @@ public class NODE3000007
 {
 
     public NODE3000007(){
-        super("NODE3000007","N3_H2O_STEP","event","64","enum","0=NONE|1=VENT|2=HEATUP|3=PURGE|4=FLOW|5=TEST|6=TEST_SV_1|7=TEST_SV_2|8=SERVICE","Water Processor Step","Water Processor Step. What the Water Processor is doing at this time.");
+        super("NODE3000007","ETHOS","N3_H2O_STEP","event","64","enum","0=NONE|1=VENT|2=HEATUP|3=PURGE|4=FLOW|5=TEST|6=TEST_SV_1|7=TEST_SV_2|8=SERVICE","Water Processor Step","Water Processor Step. What the Water Processor is doing at this time.");
     }
 
 

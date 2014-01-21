@@ -20,7 +20,7 @@ public class AIRLOCK000049
 {
 
     public AIRLOCK000049(){
-        super("AIRLOCK000049","ARL_PRES_CREW","torr","12","sprintf","%5.4f","Crewlock Pressure","Crewlock Pressure. Cabin pressure in the airlock.");
+        super("AIRLOCK000049","ETHOS","ARL_PRES_CREW","torr","12","sprintf","%5.4f","Crewlock Pressure","Crewlock Pressure. Cabin pressure in the airlock.");
     }
 
 

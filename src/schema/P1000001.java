@@ -20,7 +20,7 @@ public class P1000001
 {
 
     public P1000001(){
-        super("P1000001","P1_B_FLOW","kg/hour","12","sprintf","%5.4f","Loop B Pump Flowrate (kg/hr)","Loop B Pump Flowrate (kg/hr) Flow rate of Ammonia being moved by ETCS Pump");
+        super("P1000001","SPARTAN","P1_B_FLOW","kg/hour","12","sprintf","%5.4f","Loop B Pump Flowrate (kg/hr)","Loop B Pump Flowrate (kg/hr) Flow rate of Ammonia being moved by ETCS Pump");
     }
 
 

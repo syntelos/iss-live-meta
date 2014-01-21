@@ -20,7 +20,7 @@ public class USLAB000064
 {
 
     public USLAB000064(){
-        super("USLAB000064","LAB_AC_P","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Lab Port Air Conditioner State","Lab Port Air Conditioner State. Status of the Lab s Port Air Coditioner/Fan.");
+        super("USLAB000064","ETHOS","LAB_AC_P","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Lab Port Air Conditioner State","Lab Port Air Conditioner State. Status of the Lab s Port Air Coditioner/Fan.");
     }
 
 

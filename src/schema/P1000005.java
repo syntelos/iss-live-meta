@@ -20,7 +20,7 @@ public class P1000005
 {
 
     public P1000005(){
-        super("P1000005","RFG2_EL","degrees","12","sprintf","%5.4f","S-Band Radio Frequency Group (RFG 2) Elevation Gimbal Position","S-Band Radio Frequency Group (RFG 2) Elevation Gimbal Position");
+        super("P1000005","CRONUS","RFG2_EL","degrees","12","sprintf","%5.4f","S-Band Radio Frequency Group (RFG 2) Elevation Gimbal Position","S-Band Radio Frequency Group (RFG 2) Elevation Gimbal Position");
     }
 
 

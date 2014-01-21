@@ -15,6 +15,12 @@
  */
 package client;
 
+import schema.Console;
+import schema.ConsoleSet;
+import schema.ConsoleSetArray;
+import schema.Schema;
+import schema.Schematic;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
@@ -25,6 +31,46 @@ public class main {
     final static int PORT = 80;
 
     public static void main(String[] argv){
+        ConsoleSet console = null;
+        for (String arg : argv){
+            try {
+                Console list = Console.valueOf(arg);
+
+                if (null == console)
+                    console = list;
+
+                else if (console instanceof ConsoleSetArray){
+
+                    ((ConsoleSetArray)console).add(list);
+                }
+                else {
+                    console = new ConsoleSetArray(console).add(list);
+                }
+            }
+            catch (RuntimeException rex){
+                Schematic sch = Schema.For(arg);
+                if (null != sch){
+
+                    if (null == console)
+                        console = new ConsoleSetArray(sch);
+
+                    else if (console instanceof ConsoleSetArray){
+
+                        ((ConsoleSetArray)console).add(sch);
+                    }
+                    else {
+                        console = new ConsoleSetArray(console).add(sch);
+                    }
+                }
+                else {
+                    System.err.println("Usage: client.main [NAME|CONSOLE]*");
+                    System.exit(1);
+                }
+            }
+        }
+        if (null == console){
+            console = Console.VVO;
+        }
         try {
             CreateSession create = new CreateSession();
 
@@ -39,7 +85,7 @@ public class main {
 
                 if (create.ok){
 
-                    ControlSession ctrl = new ControlSession(create);
+                    ControlSession ctrl = new ControlSession(create,console);
 
                     ctrl.q(sock_data_out);
                     ctrl.p(sock_data_in);

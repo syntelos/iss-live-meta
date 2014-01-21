@@ -20,7 +20,7 @@ public class P1000009
 {
 
     public P1000009(){
-        super("P1000009","P1_MDM2","event","64","enum","0=Off|1=On|3=Failed","P1 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status","P1 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status");
+        super("P1000009","CRONUS","P1_MDM2","event","64","enum","0=Off|1=On|3=Failed","P1 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status","P1 Truss Multiplexer/Demultiplexer (MDM) 2 on-off status");
     }
 
 

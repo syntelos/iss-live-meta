@@ -20,7 +20,7 @@ public class NODE3000014
 {
 
     public NODE3000014(){
-        super("NODE3000014","HCZ_MDM2","event","64","enum","0=Off|1=On|3=Failed","Hub Control Zone (HCZ) Multiplexer/Demultiplexer 2 (MDM) on-off status","Hub Control Zone (HCZ) Multiplexer/Demultiplexer 2 (MDM) on-off status");
+        super("NODE3000014","CRONUS","HCZ_MDM2","event","64","enum","0=Off|1=On|3=Failed","Hub Control Zone (HCZ) Multiplexer/Demultiplexer 2 (MDM) on-off status","Hub Control Zone (HCZ) Multiplexer/Demultiplexer 2 (MDM) on-off status");
     }
 
 

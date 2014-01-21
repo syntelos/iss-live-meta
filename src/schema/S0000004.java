@@ -20,7 +20,7 @@ public class S0000004
 {
 
     public S0000004(){
-        super("S0000004","S0_SARJ_P","degrees","12","sprintf","%5.4f","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Position (degrees)","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Position (degrees) Position of the rotary joint based on the output of the active joint resolver corrected for bias (ADO), or if neither joint resolver is excited the Joint_Position_MAR from SARJ_C.");
+        super("S0000004","VVO","S0_SARJ_P","degrees","12","sprintf","%5.4f","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Position (degrees)","Solar Alpha Rotary Joint (SARJ) Port Joint Angle Position (degrees) Position of the rotary joint based on the output of the active joint resolver corrected for bias (ADO), or if neither joint resolver is excited the Joint_Position_MAR from SARJ_C.");
     }
 
 

@@ -20,7 +20,7 @@ public class USLAB000101
 {
 
     public USLAB000101(){
-        super("USLAB000101","STSR_LOCK","event","64","enum","0=Frame Sync unlocked|1=Frame Sync locked","Space-To-Space Radio Frame Sync Lock","Space-To-Space Radio Frame Sync Lock");
+        super("USLAB000101","CRONUS","STSR_LOCK","event","64","enum","0=Frame Sync unlocked|1=Frame Sync locked","Space-To-Space Radio Frame Sync Lock","Space-To-Space Radio Frame Sync Lock");
     }
 
 

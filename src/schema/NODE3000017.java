@@ -20,7 +20,7 @@ public class NODE3000017
 {
 
     public NODE3000017(){
-        super("NODE3000017","N3_MTL","kg","12","sprintf","%5.4f","Coolant water quantity (Node 3)","Coolant water quantity (Node 3). N3 Moderate Temperature Loop (MTL) water level");
+        super("NODE3000017","ETHOS","N3_MTL","kg","12","sprintf","%5.4f","Coolant water quantity (Node 3)","Coolant water quantity (Node 3). N3 Moderate Temperature Loop (MTL) water level");
     }
 
 

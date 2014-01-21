@@ -20,7 +20,7 @@ public class NODE2000003
 {
 
     public NODE2000003(){
-        super("NODE2000003","N2_AC","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Node 2 Air Conditioner State","Node 2 Air Conditioner State. Status of the Node 2 Air Conditioner/Fan.");
+        super("NODE2000003","ETHOS","N2_AC","event","64","enum","0=RESET|1=DRAIN|2=DRYOUT|3=EIB OFF|4=OFF|5=ON|6=STARTUP|7=TEST","Node 2 Air Conditioner State","Node 2 Air Conditioner State. Status of the Node 2 Air Conditioner/Fan.");
     }
 
 

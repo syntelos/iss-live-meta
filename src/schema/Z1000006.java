@@ -20,7 +20,7 @@ public class Z1000006
 {
 
     public Z1000006(){
-        super("Z1000006","CMG2_SM_I","amperes","12","sprintf","%5.4f","Control Moment Gyroscope (CMG)-2 Spin Motor Current (amps)","Control Moment Gyroscope (CMG)-2 Spin Motor Current (amps). Commanded current of the CMG-2 Spin Motor, used to control the wheel speed.");
+        super("Z1000006","ADCO","CMG2_SM_I","amperes","12","sprintf","%5.4f","Control Moment Gyroscope (CMG)-2 Spin Motor Current (amps)","Control Moment Gyroscope (CMG)-2 Spin Motor Current (amps). Commanded current of the CMG-2 Spin Motor, used to control the wheel speed.");
     }
 
 

@@ -20,7 +20,7 @@ public class USLAB000059
 {
 
     public USLAB000059(){
-        super("USLAB000059","LAB_TEMP","celcius","12","sprintf","%5.4f","Cabin temperature","Cabin temperature. Air Temperature in the US Lab.");
+        super("USLAB000059","ETHOS","LAB_TEMP","celcius","12","sprintf","%5.4f","Cabin temperature","Cabin temperature. Air Temperature in the US Lab.");
     }
 
 

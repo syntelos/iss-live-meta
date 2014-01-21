@@ -20,7 +20,7 @@ public class P6000004
 {
 
     public P6000004(){
-        super("P6000004","P6_PVCU_2B_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Drive Voltage");
+        super("P6000004","SPARTAN","P6_PVCU_2B_V","volts","12","sprintf","%5.4f","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Drive Voltage","Photovolatic Control Unit (PVCU) - Solar Array - 2B - Drive Voltage");
     }
 
 

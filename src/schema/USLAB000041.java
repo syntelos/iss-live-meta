@@ -20,7 +20,7 @@ public class USLAB000041
 {
 
     public USLAB000041(){
-        super("USLAB000041","LOAC_CMG","event","64","enum","0=FALSE|1=TRUE","Loss of CMG Attitude Control (LOAC) Caution Message In Alarm","Loss of CMG Attitude Control (LOAC) Caution Message In Alarm. Defines when the US GNC has declared the CMGs can no longer maintain attitude control.");
+        super("USLAB000041","ADCO","LOAC_CMG","event","64","enum","0=FALSE|1=TRUE","Loss of CMG Attitude Control (LOAC) Caution Message In Alarm","Loss of CMG Attitude Control (LOAC) Caution Message In Alarm. Defines when the US GNC has declared the CMGs can no longer maintain attitude control.");
     }
 
 

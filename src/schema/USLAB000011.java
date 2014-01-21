@@ -20,7 +20,7 @@ public class USLAB000011
 {
 
     public USLAB000011(){
-        super("USLAB000011","DESAT_Q","event","64","enum","0=ENABLED|1=INHIBITED","Desaturation Request (Enabled/Inhibited)","Desaturation Request (Enabled/Inhibited). Provides status of whether desaturation thruster firings are permitted.  Desaturations help prevent the CMG system from saturation, or 100% momentum percentage, by reducing the active CMG momentum.");
+        super("USLAB000011","ADCO","DESAT_Q","event","64","enum","0=ENABLED|1=INHIBITED","Desaturation Request (Enabled/Inhibited)","Desaturation Request (Enabled/Inhibited). Provides status of whether desaturation thruster firings are permitted.  Desaturations help prevent the CMG system from saturation, or 100% momentum percentage, by reducing the active CMG momentum.");
     }
 
 

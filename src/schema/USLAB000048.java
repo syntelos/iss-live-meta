@@ -20,7 +20,7 @@ public class USLAB000048
 {
 
     public USLAB000048(){
-        super("USLAB000048","CMG4_SMSB_TEMP","celcius","12","sprintf","%5.4f","Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 4 (deg C)","Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 4 (deg C). Temperature measured on the motor side of the CMG 4 flywheel spin bearing.");
+        super("USLAB000048","ADCO","CMG4_SMSB_TEMP","celcius","12","sprintf","%5.4f","Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 4 (deg C)","Spin Motor Spin Bearing Temperature - Control Moment Gyroscope (CMG) 4 (deg C). Temperature measured on the motor side of the CMG 4 flywheel spin bearing.");
     }
 
 

@@ -20,7 +20,7 @@ public class S1000004
 {
 
     public S1000004(){
-        super("S1000004","RFG1_AZ","degrees","12","sprintf","%5.4f","S-Band Radio Frequency Group (RFG 1) Azimuth Gimbal Position","S-Band Radio Frequency Group (RFG 1) Azimuth Gimbal Position");
+        super("S1000004","CRONUS","RFG1_AZ","degrees","12","sprintf","%5.4f","S-Band Radio Frequency Group (RFG 1) Azimuth Gimbal Position","S-Band Radio Frequency Group (RFG 1) Azimuth Gimbal Position");
     }
 
 

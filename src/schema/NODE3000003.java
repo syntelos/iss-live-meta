@@ -20,7 +20,7 @@ public class NODE3000003
 {
 
     public NODE3000003(){
-        super("NODE3000003","N3_PPCO2","torr","12","sprintf","%5.4f","Node 3 ppCO2","Node 3 ppCO2. Carbon dioxide level measured by Node 3 Sensors.");
+        super("NODE3000003","ETHOS","N3_PPCO2","torr","12","sprintf","%5.4f","Node 3 ppCO2","Node 3 ppCO2. Carbon dioxide level measured by Node 3 Sensors.");
     }
 
 

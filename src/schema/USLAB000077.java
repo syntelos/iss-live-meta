@@ -20,7 +20,7 @@ public class USLAB000077
 {
 
     public USLAB000077(){
-        super("USLAB000077","USLAB_MDM1","event","64","enum","0=Off|1=On|3=Failed","US Lab Multiplexer/Demultiplexer (MDM) 1 on-off status","US Lab Multiplexer/Demultiplexer (MDM) 1 on-off status");
+        super("USLAB000077","CRONUS","USLAB_MDM1","event","64","enum","0=Off|1=On|3=Failed","US Lab Multiplexer/Demultiplexer (MDM) 1 on-off status","US Lab Multiplexer/Demultiplexer (MDM) 1 on-off status");
     }
 
 
