@@ -42,7 +42,7 @@ public class Chunk
         while (0 == linin.length()){
             linin = in.readLine();
             if (null == linin){
-                throw new java.net.SocketTimeoutException("Server stream timeout");
+                throw new SessionTimeoutException();
             }
         }
         int len = Integer.parseInt(linin,16);
