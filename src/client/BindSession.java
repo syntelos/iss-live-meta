@@ -113,12 +113,9 @@ public class BindSession
             else if (data.input.startsWith("p();"))
             {
                 System.out.print(data.input);
-
-                // if (5 < polling)
-                //     throw new BindTimeoutException();
-                // else {
-                //     polling++;
-                // }
+                /*
+                 * LOS
+                 */
             }
             else if (data.input.startsWith("loop(0);"))
             {
