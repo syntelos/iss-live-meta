@@ -31,7 +31,7 @@ public class ControlSession
 
     String[] request;
     String content, body, response;
-    boolean ok;
+    boolean ok = false;
 
     ControlSession(CreateSession create, ConsoleSet consoleSet){
         if (null != create.session){
@@ -72,7 +72,11 @@ public class ControlSession
         while (true){
             String linin = in.readLine();
 
-            if (0 == linin.length())
+            if (null == linin){
+
+                throw new SessionTimeoutException();
+            }
+            else if (0 == linin.length())
                 break;
             else {
                 System.out.println(linin);

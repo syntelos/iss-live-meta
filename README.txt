@@ -1,25 +1,10 @@
 
 Abstract
 
-    Code and meta data for looking into data values and schema units.
-
-Package "client"
-
     Example application pulls JSON telemetry data from
-    http://spacestationlive.jsc.nasa.gov/
-
-Table "schema"
-
-    File "schema.tsv" lists meta data as tab separated values with the
-    following columns: name, console, tmtc, units, columns, format
-    type, format, short description, long description.  See also
-    "schema.java" in this directory, which is run by the script named
-    "gen.sh" to generate the catalog found in the schema package.
-
-Package "schema"
-
-    Example application of "schema.tsv", catalog meta data in tab
-    separated values file, generated into a java enumerated type.
+    http://spacestationlive.jsc.nasa.gov/ : Space State Live Data API
+    protocol and catalog meta data for the Liverstreamer server.  Code
+    and catalog for looking into data values and schema units.
 
 Quick start
 
@@ -31,6 +16,27 @@ Usage
 
     Watch any combination of consoles, e.g. "VVO" or "SPARTAN", or
     symbols, e.g. "S0000001" or "S0000003". Default "VVO".
+
+Package "client"
+
+    A particularly transparent implementation of a working HTTP
+    protocol for talking to the Space State Live application.
+
+Table "schema"
+
+    File "schema.tsv" lists meta data as tab separated values with the
+    following columns: name (symbol), console (mission control), tmtc
+    (a derived symbol), units, columns, format type, format, short
+    description, long description.  
+
+    See also "schema.java" in this directory, which is run by the
+    script named "gen.sh" to generate the catalog found in the schema
+    package.
+
+Package "schema"
+
+    Example application of "schema.tsv", catalog meta data in tab
+    separated values file, generated into a java enumerated type.
 
 Data values
 

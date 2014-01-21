@@ -25,6 +25,7 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
 
+
 public class main {
 
     final static String HOST = "push1.jsc.nasa.gov";
@@ -72,41 +73,66 @@ public class main {
             console = Console.VVO;
         }
         try {
-            CreateSession create = new CreateSession();
+            while (true){
+                /*
+                 * Re/connect
+                 */
+                try {
+                    Socket socket = new Socket(HOST,PORT);
+                    try {
+                        DataInputStream in = new DataInputStream(socket.getInputStream());
+                        DataOutputStream out = new DataOutputStream(socket.getOutputStream());
+                        /*
+                         * Get a session identifier
+                         */
+                        CreateSession create = new CreateSession();
+                        create.q(out);
+                        create.p(in);
 
-            Socket sock_data = new Socket(HOST,PORT);
+                        if (create.ok){
 
-            DataInputStream sock_data_in = new DataInputStream(sock_data.getInputStream());
-            DataOutputStream sock_data_out = new DataOutputStream(sock_data.getOutputStream());
+                            while (true){
+                                try {
+                                    /*
+                                     * Define symbol set
+                                     */
+                                    ControlSession ctrl = new ControlSession(create,console);
+                                    ctrl.q(out);
+                                    ctrl.p(in);
 
-            try {
-                create.q(sock_data_out);
-                create.p(sock_data_in);
+                                    if (ctrl.ok){
+                                        /*
+                                         * Read data
+                                         */
+                                        BindSession bind = new BindSession(create);
+                                        bind.q(out);
+                                        /*
+                                         * Never returns, throws session or control timeout
+                                         */
+                                        bind.p(in);
+                                    }
+                                    else {
+                                        System.err.println("client.main: error, session control: "+ctrl.response);
+                                    }
+                                }
+                                catch (ControlTimeoutException poll){
 
-                if (create.ok){
-
-                    ControlSession ctrl = new ControlSession(create,console);
-
-                    ctrl.q(sock_data_out);
-                    ctrl.p(sock_data_in);
-
-                    if (ctrl.ok){
-
-                        BindSession bind = new BindSession(create);
-
-                        bind.q(sock_data_out);
-                        bind.p(sock_data_in);
+                                    System.err.println("\nclient.main: recycle session");
+                                }
+                            }
+                        }
+                        else {
+                            System.err.println("client.main: error, session create: "+create.response);
+                        }
                     }
-                    else {
-                        System.err.println("Error, control: "+ctrl.response);
+                    finally {
+                        socket.close();
                     }
                 }
-                else {
-                    System.err.println("Error, create: "+create.response);
+                catch (SessionTimeoutException reconnect){
+
+                    System.err.println("\nclient.main: discard session, reconnect");
                 }
-            }
-            finally {
-                sock_data.close();
             }
         }
         catch (Exception exc){

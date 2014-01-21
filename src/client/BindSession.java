@@ -29,7 +29,7 @@ public class BindSession
     String[] request;
     String content;
     String response;
-    boolean ok;
+    boolean ok = false;
 
     public BindSession(CreateSession create){
         if (null != create.session){
@@ -71,7 +71,11 @@ public class BindSession
         while (true){
             String linin = in.readLine();
 
-            if (0 == linin.length())
+            if (null == linin){
+
+                throw new SessionTimeoutException();
+            }
+            else if (0 == linin.length())
                 break;
             else {
                 System.out.println(linin);
@@ -91,7 +95,7 @@ public class BindSession
         }
         System.out.println();
 
-        int startup = 0;
+        int startup = 0, polling = 0;
 
         while (true){
 
@@ -99,6 +103,7 @@ public class BindSession
 
             if (0 < data.size()){
                 startup = 0;
+                polling = 0;
 
                 for (Chunk.Pair pair: data){
 
@@ -106,9 +111,27 @@ public class BindSession
                 }
                 System.out.println();
             }
+            else if (data.input.startsWith("p();")){
+                System.out.print(">p> "+data.input);
+
+                // if (20 < polling)
+                //     throw new ControlTimeoutException();
+                // else {
+                    polling++;
+                // }
+            }
+            else if (data.input.startsWith("loop(0);") ||
+                     data.input.startsWith("end("))
+            {
+                System.out.print(">e> "+data.input);
+
+                throw new SessionTimeoutException("Server stream end");
+            }
             else if (20 < startup){
 
-                throw new java.net.SocketTimeoutException("Server stream timeout");
+                System.out.print(">t> "+data.input);
+
+                throw new SessionTimeoutException();
             }
             else {
                 System.out.print(data.input);

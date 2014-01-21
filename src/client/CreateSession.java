@@ -28,7 +28,7 @@ public class CreateSession
 {
     public final String[] request;
     public String response, body, session;
-    public boolean ok;
+    public boolean ok = false;
 
     CreateSession(){
 
@@ -64,7 +64,11 @@ public class CreateSession
         while (true){
             String linin = in.readLine();
 
-            if (0 == linin.length())
+            if (null == linin){
+
+                throw new SessionTimeoutException();
+            }
+            else if (0 == linin.length())
                 break;
             else {
                 System.out.println(linin);
