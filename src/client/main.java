@@ -72,6 +72,25 @@ public class main {
         if (null == console){
             console = Console.VVO;
         }
+        /*
+         * The following is only concerned with continuous data
+         * download, not interaction.  It shows that this limited
+         * usage permits one stream for control and binding, and
+         * generally this package is looking at the recycling
+         * protocol.
+         * 
+         * The Lightstreamer documentation (Text Mode Protocol)
+         * describes two (HTTP Keep-Alive [TCP]) streams: one for
+         * control and the other for data for the general case with
+         * interactive data selection (ControlSession).
+         * 
+         * One interesting way to watch the protocol in action is
+         * using the Chromium browser's Network (debug tool) display.
+         * Snooping the "ether" is overkill once the HTTP elements are
+         * comprehended, which are all very standard and (I think they
+         * are) well described by the code in this package (e.g. Chunk
+         * operation from BindSession).
+         */
         try {
             while (true){
                 /*
@@ -90,35 +109,38 @@ public class main {
                         create.p(in);
 
                         if (create.ok){
+                            /*
+                             * Define symbol set
+                             */
+                            ControlSession ctrl = new ControlSession(create,console);
+                            ctrl.q(out);
+                            ctrl.p(in);
 
-                            while (true){
-                                try {
-                                    /*
-                                     * Define symbol set
-                                     */
-                                    ControlSession ctrl = new ControlSession(create,console);
-                                    ctrl.q(out);
-                                    ctrl.p(in);
+                            if (ctrl.ok){
+                                /*
+                                 * Read data
+                                 */
+                                BindSession bind = new BindSession(create);
 
-                                    if (ctrl.ok){
+                                while (true){
+                                    try {
                                         /*
-                                         * Read data
+                                         * Re/bind
                                          */
-                                        BindSession bind = new BindSession(create);
                                         bind.q(out);
                                         /*
                                          * Never returns, throws session or control timeout
                                          */
                                         bind.p(in);
                                     }
-                                    else {
-                                        System.err.println("client.main: error, session control: "+ctrl.response);
+                                    catch (BindTimeoutException poll){
+
+                                        System.err.println("\nclient.main: recycle bind");
                                     }
                                 }
-                                catch (ControlTimeoutException poll){
-
-                                    System.err.println("\nclient.main: recycle session");
-                                }
+                            }
+                            else {
+                                System.err.println("client.main: error, session control: "+ctrl.response);
                             }
                         }
                         else {
@@ -128,6 +150,10 @@ public class main {
                     finally {
                         socket.close();
                     }
+                }
+                catch (ControlTimeoutException experimental){
+
+                    System.err.println("\nclient.main: discard control, reconnect");
                 }
                 catch (SessionTimeoutException reconnect){
 

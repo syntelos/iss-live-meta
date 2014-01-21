@@ -95,14 +95,14 @@ public class BindSession
         }
         System.out.println();
 
-        int startup = 0, polling = 0;
+        int initialization = 0, polling = 0;
 
         while (true){
 
             Chunk data = new Chunk(in);
 
             if (0 < data.size()){
-                startup = 0;
+                initialization = 0;
                 polling = 0;
 
                 for (Chunk.Pair pair: data){
@@ -111,31 +111,37 @@ public class BindSession
                 }
                 System.out.println();
             }
-            else if (data.input.startsWith("p();")){
-                System.out.print(">p> "+data.input);
-
-                // if (20 < polling)
-                //     throw new ControlTimeoutException();
-                // else {
-                    polling++;
-                // }
-            }
-            else if (data.input.startsWith("loop(0);") ||
-                     data.input.startsWith("end("))
+            else if (data.input.startsWith("p();"))
             {
-                System.out.print(">e> "+data.input);
+                System.out.print(data.input);
 
-                throw new SessionTimeoutException("Server stream end");
+                if (5 < polling)
+                    throw new BindTimeoutException();
+                else {
+                    polling++;
+                }
             }
-            else if (20 < startup){
-
-                System.out.print(">t> "+data.input);
+            else if (data.input.startsWith("loop(0);"))
+            {
+                System.out.print(data.input);
 
                 throw new SessionTimeoutException();
             }
-            else {
+            else if (data.input.startsWith("var ") ||
+                     data.input.startsWith("c("))
+            {
                 System.out.print(data.input);
-                startup++;
+
+                if (5 < initialization)
+                    throw new ControlTimeoutException();
+                else {
+                    initialization++;
+                }
+            }
+            else {
+                System.out.print(">X> "+data.input);
+
+                throw new ControlTimeoutException();
             }
         }
     }
