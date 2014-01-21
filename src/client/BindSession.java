@@ -95,7 +95,7 @@ public class BindSession
         }
         System.out.println();
 
-        int initialization = 0, polling = 0;
+        int initialization = 0;
 
         while (true){
 
@@ -103,7 +103,6 @@ public class BindSession
 
             if (0 < data.size()){
                 initialization = 0;
-                polling = 0;
 
                 for (Chunk.Pair pair: data){
 
@@ -115,11 +114,11 @@ public class BindSession
             {
                 System.out.print(data.input);
 
-                if (5 < polling)
-                    throw new BindTimeoutException();
-                else {
-                    polling++;
-                }
+                // if (5 < polling)
+                //     throw new BindTimeoutException();
+                // else {
+                //     polling++;
+                // }
             }
             else if (data.input.startsWith("loop(0);"))
             {
