@@ -40,9 +40,12 @@ Package "schema"
 
 Data values
 
-    Not all data values are well defined, from the service or in the
-    schematic (catalog) meta data.  Types defined as enumerated in the
-    schema may have mapped values from the network service.  
+    Data values from the web stream have both "Value" and
+    "CalibratedData" values.  The floating point types (format type
+    "sprintf", format "%f") have precision - correct values in their
+    "CalibratedData". The enumerated types have their "map range"
+    values in their "CalibratedData", and their "map domain" values in
+    their "Value" values.
 
 Schema units
 
